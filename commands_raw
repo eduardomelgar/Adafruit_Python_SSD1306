@@ -1,0 +1,251 @@
+    1  sp
+    2  sudo apt upgrade
+    3  sudo apt update
+    4  sudo apt install default/jdk
+    5  sudo apt install default-jdk
+    6  java --version
+    7  sudo apt install firefox
+    8  sudo apt install firefox-esr
+    9  shutdown
+   10  shutdown now
+   11  sudo apt install git
+   12  sudo -i
+   13  su - cemelg
+   14  sudo -i
+   15  sudo usermod -aG video cemelg
+   16  sudo -i
+   17  vcgencmd version
+   18  vi /etc/passwd
+   19  vi /etc/group
+   20  sudo vi /etc/group
+   21  ll
+   22  ls -la
+   23  ll
+   24  vi git/linkts.txt
+   25  cd git/github/
+   26  ls
+   27  git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
+   28  cd Adafruit_Python_SSD1306/
+   29  ll
+   30  ls
+   31  sudo -i
+   32  sudo python3 setup.py install
+   33  cd examples/
+   34  python3 stats.py 
+   35  ls
+   36  sudo python -m pip install --upgrade pip setuptools wheel
+   37  sudo python setup.py install
+   38  sudo python3 setup.py install
+   39  cd ..
+   40  sudo python setup.py install
+   41  sudo python3 setup.py install
+   42  ls
+   43  ls examples/
+   44  cd examples/
+   45  python3 stats.py 
+   46  sudo raspi-config
+   47  sudo reboot
+   48  ll
+   49  la
+   50  ls -la
+   51  sudo cp -R /home/cemelg/git .
+   52  ls -la
+   53  sudo chmod -R git pi:
+   54  sudo chmod -R pi: git
+   55  sudo chown -R pi: git
+   56  ls -la
+   57  cd git/scripts/
+   58  ls -la
+   59  sh test_temp.sh 
+   60  vi test_temp.sh 
+   61  ls -la
+   62  chmod 755 test_temp.sh 
+   63  ls -la
+   64  ./test_temp.sh 
+   65  top
+   66  sudo i2cdetect -y 1
+   67  sudo i2cdetect -y 0
+   68  sudo i2cdetect -y 1
+   69  cd git/scripts/
+   70  cd ../github/Adafruit_Python_SSD1306/examples/
+   71  python3 stats.py 
+   72  cd ..
+   73  sudo python3 setup.py install
+   74  ls -la
+   75  cd examples/
+   76  ls -l
+   77  python3 stats.py 
+   78  sudo shutdown now
+   79  sudo pip3 intall Adafruit_BBIO
+   80  sudo pip3 install Adafruit_BBIO
+   81  cd git/github/Adafruit_Python_SSD1306/examples/
+   82  python3 stats.py 
+   83  sudo python3 setup.py install
+   84  cd ..
+   85  cd -
+   86  sudo python3 setup.py install
+   87  cd examples/
+   88  python3 stats.py 
+   89  sudo raspi-config
+   90  sudo reboot
+   91  sudo i2cdetect -y 1
+   92  cd git/github/Adafruit_Python_SSD1306/examples/
+   93  python3 stats.py 
+   94  sudo i2cdetect -y 1
+   95  python3 stats.py 
+   96  ls -la
+   97  python3 shapes.py 
+   98  python3 shapes.py 1
+   99  python3 image.py 
+  100  python3 animate.py 
+  101  python3 stats.py 
+  102  ls /dev/i2c* /dev/spi*
+  103  sudo apt-get install python3-pip
+  104  cd
+  105  sudo pip3 install --upgrade adafruit-python-shell
+  106  wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+  107  sudo python3 raspi-blinka.py
+  108  ls /dev/i2c* /dev/spi*
+  109  cd git/scripts/
+  110  vi blinkatest.py
+  111  python3 blinkatest.py 
+  112  pip3 install adafruit-circuitpython-ssd1306
+  113  sudo apt-get install python3-pil
+  114  sudo /boot/config.txt 
+  115  sudo vim /boot/config.txt 
+  116  sudo reboot
+  117  cd git/github/Adafruit_Python_SSD1306/
+  118  sudo python3 setup.py install
+  119  cd examples/
+  120  python3 stats.py 
+  121  vi stats.py 
+  122  sudo shoutdown
+  123  sudo shutdown
+  124  sudo shutdown now
+  125  sudo i2cdetect -y 1
+  126  sudo apt install -y python3-dev
+  127  sudo apt install -y python-smbus i2c-tools
+  128  sudo apt install -y python3-pil
+  129  sudo apt install -y python3-pip
+  130  sudo apt install -y python3-setuptools
+  131  sudo apt install -y python3-rpi.gpio
+  132  sudo raspi-config
+  133  sudo reboot
+  134  sudo rebootlsmod | grep i2c_
+  135  lsmod | grep i2c_
+  136  i2cdetect -y 1
+  137  cd git/github/Adafruit_Python_SSD1306/examples/
+  138  python3 stats.py 
+  139  hostname -I |cut -f 2 -d
+  140  hostname -I |cut -f 2 -d ' ' 
+  141  vi stats.py 
+  142  cd ..
+  143  ll
+  144  ls
+  145  wget https://dl.dafont.com/dl/?f=pixel_operator
+  146  ls
+  147  wget https://dl.dafont.com/dl/?f=pixel_operator
+  148  ll
+  149  ls
+  150  rm index.html\?f\=pixel_operator*
+  151  ls -l
+  152  mv ~/pixel_operator.zip .
+  153  ll
+  154  ls -l
+  155  unzip pixel_operator.zip 
+  156  ls -l
+  157  vi examples/stats.py 
+  158  python3 stats.py 
+  159  cd examples/
+  160  python3 stats.py 
+  161  cd ..
+  162  mkdir fonts
+  163  mv PixelOperator* fonts/
+  164  cp fonts/PixelOperatorMono.ttf
+  165  cp fonts/PixelOperatorMono.ttf examples/
+  166  cd -
+  167  python3 stats.py 
+  168  vi stats.py 
+  169  cp ../fonts/PixelOperator-Bold.ttf .
+  170  python3 stats.py 
+  171  vi stats.py 
+  172  python3 stats.py 
+  173  vi stats.py 
+  174  python3 stats.py 
+  175  ll
+  176  ls
+  177  rm PixelOperator*
+  178  python3 stats.py 
+  179  vi stats.py 
+  180  python3 stats.py 
+  181  vi stats.py 
+  182  PixelOperatorMono.ttf
+  183  vi stats.py 
+  184  PixelOperatorMono.ttf
+  185  vi stats.py 
+  186  PixelOperatorMono.ttf
+  187  vi stats.py 
+  188  PixelOperatorMono.ttf
+  189  vi stats.py 
+  190  python3 stats.py 
+  191  mv stats.py orig_stats.py 
+  192  vi stats.py 
+  193  python3 stats.py 
+  194  vi stats.py 
+  195  vi orig_stats.py 
+  196  vi stats.py 
+  197  cat orig_stats.py 
+  198  vi stats.py 
+  199  python3 stats.py 
+  200  vi stats.py 
+  201  cp ../fonts/PixelOperator-Bold.ttf .
+  202  vi stats.py 
+  203  python3 stats.py 
+  204  vi stats.py 
+  205  python3 stats.py 
+  206  vi stats.py 
+  207  python3 stats.py 
+  208  vi stats.py 
+  209  python3 stats.py 
+  210  vi stats.py 
+  211  python3 stats.py 
+  212  vi stats.py 
+  213  python3 stats.py 
+  214  sudo shutdown now
+  215  ls
+  216  ls -l
+  217  la
+  218  cd ..
+  219  cd
+  220  ll
+  221  la
+  222  ls -la
+  223  ll
+  224  mv raspi-blinka.py git/scripts/
+  225  ll
+  226  cd git/github/Adafruit_Python_SSD1306/
+  227  ll
+  228  la
+  229  rm pixel_operator.zip 
+  230  ll
+  231  cd examples/
+  232  ll
+  233  python3 stats.py 
+  234  cd ..
+  235  cat linkts.txt 
+  236  cd
+  237  cd .ssh/
+  238  ll
+  239  cd
+  240  ssh-keygen 
+  241  cat .ssh/id_rsa.pub 
+  242  cd git/github/
+  243  ll
+  244  mkdir eduardomelgar
+  245  cd eduardomelgar/
+  246  git clone git@github.com:eduardomelgar/Adafruit_Python_SSD1306.git
+  247  ll
+  248  cd Adafruit_Python_SSD1306/
+  249  ll
+  250  history
+  251  history > commands_raw
